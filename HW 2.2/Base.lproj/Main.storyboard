@@ -103,8 +103,7 @@
                         <outlet property="greenLabel" destination="j7B-jR-YYO" id="n4t-b7-jZa"/>
                         <outlet property="greenSlider" destination="IPz-WU-Biq" id="zAE-Ir-Oqk"/>
                         <outlet property="redLabel" destination="N9f-PA-ITX" id="xXB-Gw-s6U"/>
-                        <outlet property="redSlide" destination="qRz-Cf-LUK" id="79J-1U-p6U"/>
-                        <outlet property="redSlider" destination="qRz-Cf-LUK" id="oDw-aM-zrw"/>
+                        <outlet property="redSlider" destination="qRz-Cf-LUK" id="wye-gL-8Q7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
