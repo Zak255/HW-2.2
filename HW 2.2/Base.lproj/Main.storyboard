@@ -57,7 +57,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9Dk-oB-NRC">
                                 <rect key="frame" x="140.5" y="277.5" width="137" height="130"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qRz-Cf-LUK">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qRz-Cf-LUK" userLabel="Red Slider">
                                         <rect key="frame" x="-2" y="0.0" width="141" height="31"/>
                                         <connections>
                                             <action selector="rgbSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="3md-Q8-LBz"/>
@@ -104,6 +104,7 @@
                         <outlet property="greenSlider" destination="IPz-WU-Biq" id="zAE-Ir-Oqk"/>
                         <outlet property="redLabel" destination="N9f-PA-ITX" id="xXB-Gw-s6U"/>
                         <outlet property="redSlide" destination="qRz-Cf-LUK" id="79J-1U-p6U"/>
+                        <outlet property="redSlider" destination="qRz-Cf-LUK" id="oDw-aM-zrw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
